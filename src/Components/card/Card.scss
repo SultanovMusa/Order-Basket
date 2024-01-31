@@ -1,0 +1,111 @@
+.section2 {
+	padding-block: 35px;
+	padding-inline: 60px;
+	position: relative;
+	top: 1450px;
+	.disContentRender {
+		display: flex;
+		justify-content: space-between;
+		.content1 {
+			display: flex;
+			justify-content: space-evenly;
+			flex-direction: column;
+			position: relative;
+			top: 100px;
+
+			h5 {
+				display: flex;
+				justify-content: center;
+				position: relative;
+				bottom: 100px;
+				font-size: 23px;
+				font-weight: 500;
+			}
+			.table {
+				.tdody {
+					padding-block: 10px;
+					padding-inline: 35px;
+					.tr {
+						display: flex;
+						justify-content: space-between;
+						.div {
+							.td1 {
+								.img1 {
+									width: 200px;
+									height: 200px;
+									position: relative;
+									left: 100px;
+									border-radius: 13px;
+								}
+							}
+						}
+						.contents2 {
+							display: flex;
+							justify-content: space-between;
+							position: relative;
+							top: 100px;
+							left: 350px;
+
+							td {
+								margin: 25px;
+							}
+							.tdbutton {
+								display: flex;
+								gap: 10px;
+								button {
+									width: 125px;
+									height: 40px;
+									border-radius: 12px;
+									background-color: rgba(2, 67, 2, 0.767)n;
+									font-size: 17px;
+									border: 2px solid red	;
+								}
+								button:hover {
+									transition: 1s;
+									background-color: rgba(2, 67, 2, 0.767);
+									font-size: 18px;
+									border: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.content2 {
+			display: flex;
+			justify-content: space-between;
+			margin-right: 10px;
+			.textprice {
+				h2 {
+					font-size: 25px;
+					font-weight: 700;
+					position: relative;
+					right: 115px;
+					top: 15px;
+				}
+			}
+			.buttons {
+				display: flex;
+				gap: 15px;
+				position: relative;
+				right: 105px;
+				top: 38px;
+				button {
+					width: 125px;
+					height: 40px;
+					border-radius: 15px;
+					background-color: green;
+					border: 2px solid red;
+					font-size: 17px;
+				}
+				button:hover {
+					transition: 1s;
+					background-color: rgba(10, 42, 186, 0.444);
+					font-size: 18px;
+					border: none;
+				}
+			}
+		}
+	}
+}

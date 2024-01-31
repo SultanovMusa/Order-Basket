@@ -1,0 +1,46 @@
+.container2 {
+  padding-block: 45px;
+  padding-inline: 20px;
+  .disDiv {
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 200px;
+      height: 285px;
+      position: relative;
+      bottom: 32px;
+      border-radius: 15px;
+    }
+    .div2 {
+      display: flex;
+      gap: 35px;
+      margin-top: 25px;
+      h5 {
+        font-size: 30px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 25px;
+        font-weight: 500;
+      }
+      button {
+        width: 125px;
+        height: 40px;
+        border-radius: 15px;
+        background-color: rgba(2, 67, 2, 0.767);
+        border: 2px solid rgba(2, 67, 2, 0.767);
+        font-size: 17px;
+        position: relative;
+        box-shadow: 3px 8px 15px 10px rgba(2, 67, 2, 0.767) ;
+        color: black;
+        top: 50px;
+      }
+      button:hover {
+        transition: 1s;
+        background-color: rgba(2, 67, 2, 0.767);
+        border: none;
+        font-size: 18px;
+      } 
+    }
+  }
+}
